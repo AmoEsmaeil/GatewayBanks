@@ -1,6 +1,6 @@
 {
   "name": "karakoweb/GatewayBanks",
-  "homepage": "https://github.com/larabook/gateway",
+  "homepage": "https://github.com/karakoweb/GatewayBanks",
   "description": "A Laravel package for connecting to all Iraninan payment  gateways",
   "keywords": [
     "laravel",
