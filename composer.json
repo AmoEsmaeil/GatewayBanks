@@ -4,31 +4,7 @@
   "description": "A Laravel package for connecting to all Iraninan payment  gateways",
   "keywords": [
     "laravel",
-    "iran",
-    "payment",
-    "gateway",
-    "port",
-    "bank",
-    "pay",
-    "mellat",
-    "saman",
-    "pasargad",
-    "parsian",
-    "sadad",
-    "meli",
-    "payline",
-    "jahanpay",
-    "zarinpal",
-    "iranian-banks",
-    "persian-banks",
-    "pardakht",
-    "dargah",
-    "shaparak",
-    "poolport",
-    "ipay",
-    "asan-pardakht",
-    "pay-ir",
-    "paypal"
+    "gateway"  
   ],
   "license": "MIT",
   "authors": [
@@ -37,12 +13,8 @@
       "email": "pakdaman.it@gmail.com"
     },
     {
-      "name": "MohammadReza Honarkhah",
-      "email": "m.honar@gmail.com"
-    },
-    {
-      "name": "Amir Khorsandi",
-      "email": "Khorsandi@me.com"
+      "name": "Karako Web",
+      "email": "Info@Karakoweb.ir"
     }
   ],
   "require": {
@@ -51,18 +23,18 @@
   },
   "autoload": {
     "psr-4": {
-      "Larabookir\\Gateway\\": "src/",
-      "Larabookir\\Gateway\\Tests\\": "tests/"
+      "karakoweb\\Gateway\\": "src/",
+      "karakoweb\\Gateway\\Tests\\": "tests/"
     }
   },
   "minimum-stability": "dev",
   "extra": {
     "laravel": {
       "providers": [
-        "Larabookir\\Gateway\\GatewayServiceProvider"
+        "karakoweb\\Gateway\\GatewayServiceProvider"
       ],
       "aliases": {
-        "Gateway": "Larabookir\\Gateway\\Gateway"
+        "Gateway": "karakoweb\\Gateway\\Gateway"
       }
     }
   }
