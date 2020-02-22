@@ -19,6 +19,7 @@
   ],
   "require": {
     "php": ">=7.1",
+    "karakoweb/GatewayBanks": "*"
     "nesbot/carbon": "*",
     "paypal/rest-api-sdk-php": "*"
   },
@@ -28,7 +29,7 @@
       "karakoweb\\Gateway\\Tests\\": "tests/"
     }
   },
-  "minimum-stability": "dev",
+  "minimum-stability": "stable",
   "extra": {
     "laravel": {
       "providers": [
