@@ -16,7 +16,7 @@
 
 ```php
 
-composer require karakoweb/gateway
+composer require karakoweb/GatewayBanks
 
 ```   
 
